@@ -1,0 +1,70 @@
+#logo {
+    font-family: helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(91, 4, 4);
+    text-align: center;
+    padding: 0px;
+    text-transform: capitalize;
+    margin: 30px;
+}
+.navbar li{
+    display: inline;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    padding:10px;
+    
+}
+.navbar {
+    top: 0;
+    width: 100%;
+    background-color: rgba(205, 135, 6, 1);
+    text-align: center;
+    padding: 5px 0;
+    position: STICKY;
+}
+ul {
+    padding: 0px;
+}
+.headerimage {
+    width: 100%;
+}
+#brushes h1 {
+    background-color: rgb(255, 119, 0);
+}
+#paint h1 {
+    background-color: skyblue;
+}
+#frames h1 {
+    background-color: lightcoral;
+}
+p, h2, h1 {
+    font-family: helvetica;
+    text-align: center;
+}
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 0 0;
+}
+strong {
+    color: blue;
+}
+p {
+    padding: 0 30px;
+}
+#brushes, #paint, #frames {
+    text-align: center;
+}
+footer {
+    margin: 50px 0 0 0;
+    background-color: rgb(209, 209, 209);
+    padding: 10px;
+}
