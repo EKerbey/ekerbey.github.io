@@ -1,0 +1,286 @@
+body {
+  background-color: #69081d;
+  text-align: center;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.logo {
+  width: 120px;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+a:hover {
+  color:#EBD8A2;
+  background-color: white;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.05;
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.05;
+  color: #EBD8A2;
+  margin: 0;
+  font-size: 25px;
+  margin: 5px 0 10px 0;
+}
+.smallprint {
+  font-size: 12px;
+}
+.intropara {
+  padding: 0 10%;
+}
+.privacypolicy {
+  padding: 0 10%;
+  text-align: center;
+}
+hr {
+  margin: 3px;
+  border: 1px solid #EBD8A2;
+}
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 0;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+.gold {
+  color: #EBD8A2;
+}
+.box {
+  background-color: #69081d;
+  padding: 24px 16px;
+  border-radius: 30px;
+  max-width: 400px;
+}
+.box:last-of-type {
+  margin-bottom: 0;
+}
+.standings {
+  padding: 45px 35px;
+}
+.tipsTable {
+  text-align: left;
+}
+th {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border-bottom: 2px solid #EBD8A2;
+  padding: 5px 10px;
+}
+th.name, td.name-data {
+  text-align: left;
+}
+table {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #EBD8A2;
+}
+table tr:nth-child(even) {
+  background: #cccccc27;
+}
+td {
+  padding: 5px 10px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+}
+td.name-data, td.overall-data {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+footer {
+  background-color: #18252A;
+  padding: 20px;
+}
+.footersvg {
+  width: 130px;
+  margin-top: 5px;
+}
+.button {
+  background-color: white;
+  padding: 0 15px;
+}
+.button:hover {
+  background-color: #EBD8A2;
+}
+.button p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #18252A;
+}
+.flex-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background-color: #8D1730;
+  padding: 45px 35px;
+}
+.box-flex-container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  background-color: #8D1730;
+}
+.intro-flex-container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+.footer-flex-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.5);
+  color: #18252A;
+  border-radius: 50%;
+}
+.fa:hover a {
+  background: white;
+}
+#privacylink {
+  width: 83px;
+}
+.pptext {
+  font-size: 14px;
+}
+@media only screen and (min-width: 414px) {
+  h1 {
+    font-size: 50px;
+  }
+  .box{
+    padding: 24px 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .flex-container {
+    gap: 40px;
+    padding: 60px 35px;
+  }
+  .box-flex-container {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 35px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .box {
+    max-width: 250px;
+    padding: 40px 30px;
+  }
+  td {
+    font-size: 16px;
+  }
+  .tipsTable {
+    padding: 0 5%;
+  }
+  .standings {
+    padding: 65px 35px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .box {
+    max-width: 400px;
+  }
+  .intropara {
+    padding: 0 15%;
+  }
+  th {
+    font-size: 16px;
+  }
+  td {
+    font-size: 18px;
+  }
+  .intro-flex-container {
+    gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 1352px) {
+  .intropara {
+    padding: 0;
+    width: 30%;
+  }
+  .intropara p {
+    font-size: 20px;
+  }
+  .intro-flex-container {
+    text-align: left;
+    justify-content: center;
+    gap: 100px;
+  }
+  .box {
+    max-width: 250px;
+    padding: 40px;
+  }
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+
+}
